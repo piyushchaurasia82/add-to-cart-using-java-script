@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>index</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		img{
+			width: 100%;
+		}
+
+		.add_btn{
+			width:48%;
+			height: 44px;
+			background: #000;
+			color: #fff;
+			border: none;
+			border-radius: 50px;
+			outline: 0 !important;
+		}
+		.wis_btn{
+			width:48%;
+			height: 44px;
+			background: #fff;
+			color: #000;
+			border:1px solid #000;
+			border-radius: 50px;
+			outline: 0 !important;
+		}
+
+		.orange_span{
+			color: orange;
+			font-weight: 600;
+			font-size:16px !important;
+		}
+		p{
+			color: #909090;
+		}
+
+		.header ul{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		height: 100%;
+		list-style: none;
+		font-size: 18px;
+		font-weight: 600;
+		}
+
+		.header{
+		background: #000;
+		color: #fff;
+		position: sticky;
+		top: 0;
+		z-index: 200;
+		}
+		a{
+			color: inherit;
+			text-decoration: none !important;
+		}
+		a:hover{
+			color: inherit;
+			text-decoration: none !important;
+		}
+
+		.min_btn{
+		width: 55px;
+		border: 1px solid black;
+		background: black;
+		border-top-left-radius: 50px;
+		border-bottom-left-radius: 50px;
+		color: #fff;
+		height: 40px;
+		font-weight: 800;
+		}
+		.pls_btn{
+		width: 55px;
+		border: 1px solid black;
+		background: black;
+		border-top-right-radius: 50px;
+		border-bottom-right-radius: 50px;
+		color: #fff;
+		height: 40px;
+		font-weight: 800;
+		}
+		.in_p{
+			width: 100px;
+		}
+	</style>
+</head>
+<body>
+
+<section class="header">
+	<div class="container ">
+		<div class="row">
+			<div class="col-md-3">
+				<div>
+					<img src="img/logo.png" style="width: 71px;">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<ul>
+					<li>Men</li>
+					<li>Women</li>
+					<li>Kids</li>
+					<li>Customise</li>
+					<li>Sale</li>
+					<li>Best offer's</li>
+				</ul>
+			</div>
+			<div class="col-md-3 d-flex align-items-center justify-content-end">
+				<a href="#">
+					<i class="fa fa-shopping-bag"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+	<div class="container mt-1">
+		<div class="row">
+			<div class="col-md-6">
+				<div>
+					<img src="img/download.jpg">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div>
+					<span class="orange_span">Just in</span>
+					<h3>Nike Air Max Shoes</h3>
+					<p>Men's Shoes</p>
+					<p>2 colors</p>
+					<del>$<span>500</span></del>
+					<h3>$<span>350</span> <span class="orange_span">incl. of taxes and duties</span></h3>
+					<p>The greatest athletes leave a legacy, but it's not just accomplishment and accolades, points scored, titles won. More than ever it's about leaving the game better off than before, </p>
+					<div class="mt-4 mb-4 d-flex">
+						<button class="min_btn">-</button>
+						<input class="in_p" type="number" name="" value="1">
+						<button class="pls_btn">+</button>
+					</div>
+					<div class="d-flex justify-content-between">
+					<button class="add_btn">ADD TO CART</button>
+					<button class="wis_btn">ADD TO WISHLIST</button>
+				</div>
+					<div class="mt-3">
+						<p>Free Delivery and Returns</p>
+						<p>Reviews (1)</p>
+						<p>Manufacturing & Import Info</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+
+</html>
